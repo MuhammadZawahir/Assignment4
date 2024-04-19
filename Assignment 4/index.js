@@ -97,7 +97,7 @@ else {
     console.log("Not a leap year");
 }
 //================14. Fahrenheit to Celsius Converter============
-var fahrenheit = 97;
+var fahrenheit = 98.6;
 console.log("Celsius: " + (fahrenheit - 30) / 2 + " C");
 //================================15. Positive, Negative, or Zero============
 var number = -5;
@@ -110,7 +110,7 @@ else if (num < 0) {
 else {
     console.log("Zero");
 }
-//================================16. Multiplication Table================
+//================================16. Multiplication Table========================
 var multiplicationNumber = 9;
 for (var i = 1; i <= 10; i++) {
     console.log(multiplicationNumber + " x " + i + " = " + (multiplicationNumber * i));

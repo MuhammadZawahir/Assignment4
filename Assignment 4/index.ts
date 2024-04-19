@@ -102,8 +102,8 @@ else{
     
 }
 //================14. Fahrenheit to Celsius Converter============
-let fahrenheit: number = 97;
-console.log("Celsius: " + (fahrenheit - 30)/2 + " C");
+let fahrenheit: number = 98.6;
+console.log("Celsius: " + ((fahrenheit - 32) + (5/9)) + " C");
 //================================15. Positive, Negative, or Zero============
 let number: number = -5;
 if(number > 0){
